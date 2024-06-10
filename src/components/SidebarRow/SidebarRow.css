@@ -1,0 +1,70 @@
+.sidebarRow {
+    position : sticky;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    order : -1;
+    height: 20px; /* Adjust height */
+    width: 250px; /* Adjust width */
+    border-radius: 10px;
+}
+
+.sidebarRow.selected {
+    background-color: #f1f1f1;
+}
+
+.sidebarRow_icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.sidebarRow_title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .sidebarRow {
+        padding: 10px 15px;
+    }
+    
+    .sidebarRow_icon {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+
+    .sidebarRow_title {
+        font-size: 14px;
+    }
+}
+
+
+.sidebarRow:hover{
+    background-color: lightgray;
+    cursor: pointer;
+  
+}
+
+.sidebarRow:hover > .sidebarRow_icon {
+    color : red;
+}
+
+.sidebarRow:hover > .sidebarRow_title {
+    font-weight: bold;
+}
+
+.sidebarRow.selected{
+    background-color: lightgray;
+}
+
+
+.sidebarRow.selected > .sidebarRow_icon{
+    color: red;
+}
+
+.sidebarRow.selected > .sidebarRow_title {
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+ /* Base styles for videocard */
+.videocard {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Styles for video image */
+.videocard img {
+    width: 95%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Styles for video information */
+.videocard_info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px; /* Default font size */
+}
+
+/* Styles for video avatar */
+.videocard_avatar {
+    margin-right: 10px;
+}
+
+/* Styles for video text */
+.video_text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for video player */
+.video-dim {
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+}
+
+/* Media query for screens smaller than 560px */
+@media (max-width: 560px) {
+    /* Adjust layout for videocard */
+    .videocard {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Adjust font size for video information */
+    .videocard .video_text {
+        font-size: 2px !important; /* Adjusted font size for phones */
+    }
+}

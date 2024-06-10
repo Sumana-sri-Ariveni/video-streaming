@@ -1,0 +1,29 @@
+.render_start_page {
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
+    align-items: center; /* Center the child elements vertically */
+    background-color: #fff;  
+    position: fixed; /* Make the render_start_page sticky */
+    top: 90px; /* Stick the render_start_page 90px from the top */
+    left: 0; /* Align the render_start_page to the left edge of the viewport */
+    width: 100%; /* Ensure the render_start_page spans the full width */
+    z-index: 200; /* Ensure the render_start_page stays above other content */
+}
+
+.home_button {
+    margin-left: 10px; /* Add space between each button */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home_button:hover {
+    background-color: #e1e1e1;
+}

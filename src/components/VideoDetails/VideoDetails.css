@@ -1,0 +1,28 @@
+.video-details {
+    width: 80%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.video-details h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.video-details p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.video-details strong {
+    color: #000;
+    font-weight: 600;
+}

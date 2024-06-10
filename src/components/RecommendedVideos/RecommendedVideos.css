@@ -1,0 +1,22 @@
+
+
+.recommendedVideos {
+    width: 100%;
+    margin-top: 10px;
+    padding-left : 350px;
+    border-radius: 20px;
+    
+}
+
+.recommendedVideos_row {
+    display: flex;
+    
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.recommendedVideos_row .videocard {
+    width: calc(33.33% - 10px); /* Adjust according to your layout */
+    /* Add more styling as needed */
+}
+ 
